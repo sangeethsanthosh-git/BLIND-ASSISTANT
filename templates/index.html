@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vision Assist for the Blind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
+  <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+    <h1 class="text-2xl font-bold text-center mb-4">Vision Assist</h1>
+    <p class="text-gray-600 text-center mb-4">Real-time object detection with voice output</p>
+    <img id="video" src="{{ url_for('video_feed') }}" class="w-full rounded mb-4" alt="Video stream">
+    <canvas id="canvas" class="hidden"></canvas>
+    <p id="status" class="text-center text-gray-700 mt-4">Click to hear welcome or start detection</p>
+  </div>
+
+  <script>
+    const video = document.getElementById('video');
+    const canvas = document.getElementById('canvas');
+    const status = document.getElementById('status');
+    let model, detecting = false, welcomePlayed = false;
+    let lastSpoken = '';
+
+    // Check if speech synthesis is supported
+    if (!window.speechSynthesis) {
+      console.error('Speech synthesis not supported by this browser.');
+      status.textContent = 'Voice output not supported. Check browser.';
+    }
+
+    // Load COCO-SSD model
+    async function loadModel() {
+      status.textContent = 'Loading model...';
+      model = await cocoSsd.load();
+      status.textContent = 'Model loaded. Click to start.';
+    }
+
+    // Fetch and play welcome message
+    async function playWelcome() {
+      if (welcomePlayed) return;
+      console.log('Attempting to play welcome message');
+      try {
+        const response = await fetch('/welcome');
+        const data = await response.json();
+        console.log('Welcome message received:', data.message);
+        speak(data.message);
+      } catch (error) {
+        console.error('Error fetching welcome message:', error);
+        speak('Hi, welcome to Visual Assistant, let’s go');
+      }
+      welcomePlayed = true;
+    }
+
+    // Detect objects and speak results
+    async function detectObjects() {
+      if (!detecting) return;
+      canvas.width = video.width;
+      canvas.height = video.height;
+      const ctx = canvas.getContext('2d');
+      ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+      const predictions = await model.detect(canvas);
+      const objects = predictions.map(p => p.class).join(', ');
+      if (objects && objects !== lastSpoken) {
+        lastSpoken = objects;
+        status.textContent = `Detected: ${objects}`;
+        speak(`Detected: ${objects}`);
+      } else if (!objects) {
+        status.textContent = 'No objects detected';
+      }
+      setTimeout(detectObjects, 3000); // Run every 3 seconds
+    }
+
+    // Text-to-speech
+    function speak(text) {
+      if (!window.speechSynthesis) return;
+      console.log('Speaking:', text);
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'en-US';
+      utterance.rate = 1;
+      speechSynthesis.speak(utterance);
+      utterance.onend = () => console.log('Speech ended:', text);
+    }
+
+    // Toggle welcome and detection on screen click
+    document.body.addEventListener('click', () => {
+      if (!welcomePlayed) {
+        playWelcome();
+        status.textContent = 'Welcome played. Click again to start detection.';
+      } else if (!detecting) {
+        detecting = true;
+        status.textContent = 'Detecting...';
+        detectObjects();
+      } else {
+        detecting = false;
+        status.textContent = 'Click to start detection';
+      }
+    });
+
+    // Attempt welcome on load (may be blocked by autoplay)
+    window.onload = () => {
+      console.log('Page loaded, attempting welcome');
+      if (window.speechSynthesis) {
+        playWelcome(); // Initial attempt, may fail due to autoplay
+      } else {
+        console.error('Speech synthesis unavailable on load.');
+      }
+      loadModel().then(() => {
+        video.addEventListener('load', () => {
+          canvas.width = video.width;
+          canvas.height = video.height;
+        });
+      });
+    };
+  </script>
+</body>
+</html>

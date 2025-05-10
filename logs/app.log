@@ -1,0 +1,484 @@
+2025-04-17 15:04:00,954 WARNING:  * Debugger is active!
+2025-04-17 15:04:00,958 INFO:  * Debugger PIN: 561-525-163
+2025-04-17 15:27:26,184 INFO:  * Restarting with stat
+2025-04-17 15:27:26,565 WARNING:  * Debugger is active!
+2025-04-17 15:27:26,568 INFO:  * Debugger PIN: 635-015-243
+2025-04-17 15:27:26,609 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-17 15:35:15,872 INFO:  * Restarting with stat
+2025-04-17 15:35:16,233 WARNING:  * Debugger is active!
+2025-04-17 15:35:16,237 INFO:  * Debugger PIN: 561-525-163
+2025-04-17 15:35:16,267 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-17 15:36:39,636 INFO: 127.0.0.1 - - [17/Apr/2025 15:36:39] "GET / HTTP/1.1" 200 -
+2025-04-17 15:36:40,732 INFO: Camera opened successfully on index 0
+2025-04-17 15:36:40,990 INFO: 127.0.0.1 - - [17/Apr/2025 15:36:40] "GET /video_feed HTTP/1.1" 200 -
+2025-04-17 15:39:38,444 INFO: 127.0.0.1 - - [17/Apr/2025 15:39:38] "GET / HTTP/1.1" 200 -
+2025-04-17 15:39:39,354 INFO: Camera opened successfully on index 0
+2025-04-17 15:39:39,621 INFO: 127.0.0.1 - - [17/Apr/2025 15:39:39] "GET /video_feed HTTP/1.1" 200 -
+2025-04-17 15:40:28,738 INFO:  * Detected change in 'C:\\Project2025\\visual\\app.py', reloading
+2025-04-17 15:40:28,850 INFO:  * Restarting with stat
+2025-04-17 15:47:12,847 DEBUG: Starting new HTTPS connection (1): github.com:443
+2025-04-17 15:47:13,277 DEBUG: https://github.com:443 "HEAD /ultralytics/assets/releases/download/v0.0.0/yolov8n.pt HTTP/1.1" 302 0
+2025-04-17 15:51:16,776 ERROR: Failed to load YOLOv8 model: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL torch.nn.modules.container.Sequential was not an allowed global by default. Please use `torch.serialization.add_safe_globals([Sequential])` or the `torch.serialization.safe_globals([Sequential])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+2025-04-17 15:53:21,451 ERROR: Failed to load YOLOv8 model: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL ultralytics.nn.modules.Conv was not an allowed global by default. Please use `torch.serialization.add_safe_globals([Conv])` or the `torch.serialization.safe_globals([Conv])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+2025-04-17 15:54:55,451 ERROR: Failed to load YOLOv8 model: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL ultralytics.nn.modules.Conv was not an allowed global by default. Please use `torch.serialization.add_safe_globals([Conv])` or the `torch.serialization.safe_globals([Conv])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+2025-04-17 15:56:29,894 ERROR: Failed to load YOLOv8 model: custom_load() got an unexpected keyword argument 'map_location'
+2025-04-17 15:57:56,228 INFO:  * Restarting with stat
+2025-04-17 15:57:56,650 WARNING:  * Debugger is active!
+2025-04-17 15:57:56,654 INFO:  * Debugger PIN: 561-525-163
+2025-04-17 15:57:56,696 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-17 15:58:03,368 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:03] "GET / HTTP/1.1" 200 -
+2025-04-17 15:58:04,766 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:04] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:04,794 INFO: Camera opened successfully on index 0
+2025-04-17 15:58:05,204 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:05] "GET /video_feed HTTP/1.1" 200 -
+2025-04-17 15:58:07,785 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:07] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:10,795 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:10] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:13,806 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:13] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:17,825 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:17] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:19,778 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:19] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:20,832 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:20] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:22,789 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:22] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:23,840 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:23] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:25,796 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:25] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:27,814 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:27] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:28,813 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:28] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:31,818 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:31] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:31,820 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:31] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:35,818 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:35] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:35,820 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:35] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:39,817 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:39] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:39,820 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:39] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:43,824 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:43] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:43,828 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:43] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:47,819 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:47] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:47,822 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:47] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:51,826 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:51] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:51,829 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:51] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:55,819 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:55] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:55,821 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:55] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:59,819 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:59] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:58:59,822 INFO: 127.0.0.1 - - [17/Apr/2025 15:58:59] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:59:03,818 INFO: 127.0.0.1 - - [17/Apr/2025 15:59:03] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:59:03,824 INFO: 127.0.0.1 - - [17/Apr/2025 15:59:03] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:59:07,819 INFO: 127.0.0.1 - - [17/Apr/2025 15:59:07] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:59:07,822 INFO: 127.0.0.1 - - [17/Apr/2025 15:59:07] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:59:11,819 INFO: 127.0.0.1 - - [17/Apr/2025 15:59:11] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:59:11,821 INFO: 127.0.0.1 - - [17/Apr/2025 15:59:11] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:59:14,823 INFO: 127.0.0.1 - - [17/Apr/2025 15:59:14] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:59:14,826 INFO: 127.0.0.1 - - [17/Apr/2025 15:59:14] "[33mGET /detect_objects HTTP/1.1[0m" 404 -
+2025-04-17 15:59:56,179 INFO:  * Detected change in 'C:\\Project2025\\visual\\app.py', reloading
+2025-04-17 15:59:56,270 INFO:  * Restarting with stat
+2025-04-17 15:59:56,801 WARNING:  * Debugger is active!
+2025-04-17 15:59:56,804 INFO:  * Debugger PIN: 561-525-163
+2025-04-17 15:59:56,850 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-17 16:00:16,611 INFO:  * Restarting with stat
+2025-04-17 16:00:16,976 WARNING:  * Debugger is active!
+2025-04-17 16:00:16,979 INFO:  * Debugger PIN: 561-525-163
+2025-04-17 16:00:17,013 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-17 16:00:20,181 INFO: 127.0.0.1 - - [17/Apr/2025 16:00:20] "GET / HTTP/1.1" 200 -
+2025-04-17 16:00:21,119 INFO: Camera opened successfully on index 0
+2025-04-17 16:00:21,402 INFO: 127.0.0.1 - - [17/Apr/2025 16:00:21] "GET /video_feed HTTP/1.1" 200 -
+2025-04-17 16:00:56,356 INFO: 127.0.0.1 - - [17/Apr/2025 16:00:56] "GET / HTTP/1.1" 200 -
+2025-04-17 16:00:56,374 INFO: Camera opened successfully on index 0
+2025-04-17 16:00:56,810 INFO: 127.0.0.1 - - [17/Apr/2025 16:00:56] "GET /video_feed HTTP/1.1" 200 -
+2025-04-17 16:00:56,811 WARNING: Failed to read frame
+2025-04-17 16:00:56,821 INFO: Camera released
+2025-04-17 16:01:08,325 INFO: 127.0.0.1 - - [17/Apr/2025 16:01:08] "GET / HTTP/1.1" 200 -
+2025-04-17 16:01:09,260 INFO: Camera opened successfully on index 0
+2025-04-17 16:01:09,525 INFO: 127.0.0.1 - - [17/Apr/2025 16:01:09] "GET /video_feed HTTP/1.1" 200 -
+2025-04-20 11:57:01,320 INFO:  * Restarting with stat
+2025-04-20 11:57:01,769 WARNING:  * Debugger is active!
+2025-04-20 11:57:01,775 INFO:  * Debugger PIN: 561-525-163
+2025-04-20 11:57:01,812 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-20 11:57:10,951 INFO: 127.0.0.1 - - [20/Apr/2025 11:57:10] "GET / HTTP/1.1" 200 -
+2025-04-20 11:57:12,063 INFO: Camera opened successfully on index 0
+2025-04-20 11:57:12,321 INFO: 127.0.0.1 - - [20/Apr/2025 11:57:12] "GET /video_feed HTTP/1.1" 200 -
+2025-04-20 11:57:14,046 INFO: 127.0.0.1 - - [20/Apr/2025 11:57:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-20 12:07:02,780 INFO:  * Restarting with stat
+2025-04-20 12:07:03,121 WARNING:  * Debugger is active!
+2025-04-20 12:07:03,125 INFO:  * Debugger PIN: 561-525-163
+2025-04-20 12:07:03,149 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-20 12:07:08,917 INFO: 127.0.0.1 - - [20/Apr/2025 12:07:08] "GET / HTTP/1.1" 200 -
+2025-04-20 12:07:09,257 INFO: Camera opened successfully on index 0
+2025-04-20 12:07:10,234 INFO: 127.0.0.1 - - [20/Apr/2025 12:07:10] "GET /welcome HTTP/1.1" 200 -
+2025-04-20 12:07:10,260 INFO: 127.0.0.1 - - [20/Apr/2025 12:07:10] "GET /video_feed HTTP/1.1" 200 -
+2025-04-20 12:07:41,724 INFO:  * Restarting with stat
+2025-04-20 12:07:42,056 WARNING:  * Debugger is active!
+2025-04-20 12:07:42,058 INFO:  * Debugger PIN: 561-525-163
+2025-04-20 12:07:42,084 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-20 12:07:49,384 INFO: 127.0.0.1 - - [20/Apr/2025 12:07:49] "GET / HTTP/1.1" 200 -
+2025-04-20 12:07:50,297 INFO: Camera opened successfully on index 0
+2025-04-20 12:07:50,431 INFO: 127.0.0.1 - - [20/Apr/2025 12:07:50] "GET /welcome HTTP/1.1" 200 -
+2025-04-20 12:07:50,562 INFO: 127.0.0.1 - - [20/Apr/2025 12:07:50] "GET /video_feed HTTP/1.1" 200 -
+2025-04-20 12:14:46,274 INFO:  * Restarting with stat
+2025-04-20 12:14:46,618 WARNING:  * Debugger is active!
+2025-04-20 12:14:46,621 INFO:  * Debugger PIN: 561-525-163
+2025-04-20 12:14:46,643 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-20 12:14:49,401 INFO: 127.0.0.1 - - [20/Apr/2025 12:14:49] "GET / HTTP/1.1" 200 -
+2025-04-20 12:14:50,300 INFO: Camera opened successfully on index 0
+2025-04-20 12:14:50,367 INFO: 127.0.0.1 - - [20/Apr/2025 12:14:50] "GET /welcome HTTP/1.1" 200 -
+2025-04-20 12:14:50,576 INFO: 127.0.0.1 - - [20/Apr/2025 12:14:50] "GET /video_feed HTTP/1.1" 200 -
+2025-04-20 12:17:42,544 INFO:  * Detected change in 'C:\\Project2025\\visual\\app.py', reloading
+2025-04-20 12:17:42,609 INFO:  * Restarting with stat
+2025-04-20 12:17:43,032 WARNING:  * Debugger is active!
+2025-04-20 12:17:43,035 INFO:  * Debugger PIN: 561-525-163
+2025-04-20 12:17:43,061 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-20 12:18:11,684 INFO: 127.0.0.1 - - [20/Apr/2025 12:18:11] "GET / HTTP/1.1" 200 -
+2025-04-20 12:18:11,926 INFO: 127.0.0.1 - - [20/Apr/2025 12:18:11] "GET /welcome HTTP/1.1" 200 -
+2025-04-20 12:18:12,533 INFO: Camera opened successfully on index 0
+2025-04-20 12:18:12,800 INFO: 127.0.0.1 - - [20/Apr/2025 12:18:12] "GET /video_feed HTTP/1.1" 200 -
+2025-04-20 12:20:05,800 INFO:  * Detected change in 'C:\\Project2025\\visual\\app.py', reloading
+2025-04-20 12:20:05,864 INFO:  * Restarting with stat
+2025-04-20 12:20:06,385 WARNING:  * Debugger is active!
+2025-04-20 12:20:06,389 INFO:  * Debugger PIN: 561-525-163
+2025-04-20 12:20:06,415 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-20 12:20:41,877 INFO: 127.0.0.1 - - [20/Apr/2025 12:20:41] "GET / HTTP/1.1" 200 -
+2025-04-20 12:20:42,786 INFO: Camera opened successfully on index 0
+2025-04-20 12:20:43,063 INFO: 127.0.0.1 - - [20/Apr/2025 12:20:43] "GET /video_feed HTTP/1.1" 200 -
+2025-04-20 12:20:43,099 INFO: 127.0.0.1 - - [20/Apr/2025 12:20:43] "GET /welcome HTTP/1.1" 200 -
+2025-04-20 12:21:07,552 INFO: 127.0.0.1 - - [20/Apr/2025 12:21:07] "GET / HTTP/1.1" 200 -
+2025-04-20 12:21:07,577 INFO: Camera opened successfully on index 0
+2025-04-20 12:21:07,592 INFO: 127.0.0.1 - - [20/Apr/2025 12:21:07] "GET /video_feed HTTP/1.1" 200 -
+2025-04-20 12:21:07,984 WARNING: Failed to read frame
+2025-04-20 12:21:07,987 INFO: Camera released
+2025-04-20 12:21:07,992 INFO: 127.0.0.1 - - [20/Apr/2025 12:21:07] "GET /welcome HTTP/1.1" 200 -
+2025-04-20 12:22:47,914 INFO: 127.0.0.1 - - [20/Apr/2025 12:22:47] "GET / HTTP/1.1" 200 -
+2025-04-20 12:22:48,823 INFO: Camera opened successfully on index 0
+2025-04-20 12:22:49,100 INFO: 127.0.0.1 - - [20/Apr/2025 12:22:49] "GET /video_feed HTTP/1.1" 200 -
+2025-04-20 12:22:49,137 INFO: 127.0.0.1 - - [20/Apr/2025 12:22:49] "GET /welcome HTTP/1.1" 200 -
+2025-04-20 12:24:21,758 INFO: 127.0.0.1 - - [20/Apr/2025 12:24:21] "GET / HTTP/1.1" 200 -
+2025-04-20 12:24:21,779 INFO: Camera opened successfully on index 0
+2025-04-20 12:24:21,805 INFO: 127.0.0.1 - - [20/Apr/2025 12:24:21] "GET /video_feed HTTP/1.1" 200 -
+2025-04-20 12:24:22,190 WARNING: Failed to read frame
+2025-04-20 12:24:22,193 INFO: Camera released
+2025-04-20 12:24:22,198 INFO: 127.0.0.1 - - [20/Apr/2025 12:24:22] "GET /welcome HTTP/1.1" 200 -
+2025-04-20 12:24:25,149 INFO: 127.0.0.1 - - [20/Apr/2025 12:24:25] "GET / HTTP/1.1" 200 -
+2025-04-20 12:24:25,996 INFO: Camera opened successfully on index 0
+2025-04-20 12:24:26,262 INFO: 127.0.0.1 - - [20/Apr/2025 12:24:26] "GET /video_feed HTTP/1.1" 200 -
+2025-04-20 12:24:26,315 INFO: 127.0.0.1 - - [20/Apr/2025 12:24:26] "GET /welcome HTTP/1.1" 200 -
+2025-04-20 12:27:12,681 INFO: Camera opened successfully on index 0
+2025-04-20 12:27:12,947 INFO: 127.0.0.1 - - [20/Apr/2025 12:27:12] "GET /video_feed HTTP/1.1" 200 -
+2025-04-20 18:42:57,772 INFO:  * Restarting with stat
+2025-04-20 18:42:58,349 WARNING:  * Debugger is active!
+2025-04-20 18:42:58,357 INFO:  * Debugger PIN: 561-525-163
+2025-04-20 18:42:58,400 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-20 18:43:06,394 INFO: 127.0.0.1 - - [20/Apr/2025 18:43:06] "GET / HTTP/1.1" 200 -
+2025-04-20 18:43:07,545 INFO: Camera opened successfully on index 0
+2025-04-20 18:43:07,829 INFO: 127.0.0.1 - - [20/Apr/2025 18:43:07] "GET /video_feed HTTP/1.1" 200 -
+2025-04-20 18:43:07,860 INFO: 127.0.0.1 - - [20/Apr/2025 18:43:07] "GET /welcome HTTP/1.1" 200 -
+2025-04-20 18:43:07,864 INFO: 127.0.0.1 - - [20/Apr/2025 18:43:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-03 10:41:47,194 INFO:  * Restarting with stat
+2025-05-03 10:41:48,045 WARNING:  * Debugger is active!
+2025-05-03 10:41:48,057 INFO:  * Debugger PIN: 561-525-163
+2025-05-03 10:41:48,153 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-03 10:45:24,819 INFO:  * Restarting with stat
+2025-05-03 10:45:26,890 WARNING:  * Debugger is active!
+2025-05-03 10:45:26,908 INFO:  * Debugger PIN: 561-525-163
+2025-05-03 10:45:27,077 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-03 10:49:32,382 INFO:  * Restarting with stat
+2025-05-03 10:49:32,940 WARNING:  * Debugger is active!
+2025-05-03 10:49:32,948 INFO:  * Debugger PIN: 561-525-163
+2025-05-03 10:49:33,010 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-03 10:49:33,010 INFO:  * Running on http://192.168.95.150:5000/ (Press CTRL+C to quit)
+2025-05-03 10:49:49,548 INFO: 127.0.0.1 - - [03/May/2025 10:49:49] "GET / HTTP/1.1" 200 -
+2025-05-03 10:49:50,922 INFO: Camera opened successfully on index 0
+2025-05-03 10:49:51,123 INFO: 127.0.0.1 - - [03/May/2025 10:49:51] "GET /video_feed HTTP/1.1" 200 -
+2025-05-03 10:49:51,192 INFO: 127.0.0.1 - - [03/May/2025 10:49:51] "GET /welcome HTTP/1.1" 200 -
+2025-05-03 10:49:51,199 INFO: 127.0.0.1 - - [03/May/2025 10:49:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-03 10:50:20,510 INFO: 127.0.0.1 - - [03/May/2025 10:50:20] "GET / HTTP/1.1" 200 -
+2025-05-03 10:50:21,804 INFO: Camera opened successfully on index 0
+2025-05-03 10:50:22,087 INFO: 127.0.0.1 - - [03/May/2025 10:50:22] "GET /video_feed HTTP/1.1" 200 -
+2025-05-03 10:50:22,124 INFO: 127.0.0.1 - - [03/May/2025 10:50:22] "GET /welcome HTTP/1.1" 200 -
+2025-05-03 10:55:11,809 INFO:  * Restarting with stat
+2025-05-03 10:55:12,370 WARNING:  * Debugger is active!
+2025-05-03 10:55:12,376 INFO:  * Debugger PIN: 561-525-163
+2025-05-03 10:55:12,434 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-03 10:55:12,434 INFO:  * Running on http://192.168.95.150:5000/ (Press CTRL+C to quit)
+2025-05-03 10:55:22,235 INFO: 127.0.0.1 - - [03/May/2025 10:55:22] "GET / HTTP/1.1" 200 -
+2025-05-03 10:55:23,571 INFO: Camera opened successfully on index 0
+2025-05-03 10:55:23,836 INFO: 127.0.0.1 - - [03/May/2025 10:55:23] "GET /video_feed HTTP/1.1" 200 -
+2025-05-03 10:55:23,869 INFO: 127.0.0.1 - - [03/May/2025 10:55:23] "GET /welcome HTTP/1.1" 200 -
+2025-05-03 10:55:23,876 INFO: 127.0.0.1 - - [03/May/2025 10:55:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-03 10:56:21,829 INFO:  * Restarting with stat
+2025-05-03 10:56:22,417 WARNING:  * Debugger is active!
+2025-05-03 10:56:22,421 INFO:  * Debugger PIN: 561-525-163
+2025-05-03 10:56:22,467 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-03 10:56:22,467 INFO:  * Running on http://192.168.95.150:5000/ (Press CTRL+C to quit)
+2025-05-03 10:56:40,665 INFO: 127.0.0.1 - - [03/May/2025 10:56:40] "GET / HTTP/1.1" 200 -
+2025-05-03 10:56:41,881 INFO: Camera opened successfully on index 0
+2025-05-03 10:56:42,151 INFO: 127.0.0.1 - - [03/May/2025 10:56:42] "GET /video_feed HTTP/1.1" 200 -
+2025-05-03 10:56:42,186 INFO: 127.0.0.1 - - [03/May/2025 10:56:42] "GET /welcome HTTP/1.1" 200 -
+2025-05-03 10:56:42,193 INFO: 127.0.0.1 - - [03/May/2025 10:56:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-03 10:57:17,360 INFO: 127.0.0.1 - - [03/May/2025 10:57:17] "GET / HTTP/1.1" 200 -
+2025-05-03 10:57:18,449 INFO: Camera opened successfully on index 0
+2025-05-03 10:57:18,730 INFO: 127.0.0.1 - - [03/May/2025 10:57:18] "GET /video_feed HTTP/1.1" 200 -
+2025-05-03 10:57:18,762 INFO: 127.0.0.1 - - [03/May/2025 10:57:18] "GET /welcome HTTP/1.1" 200 -
+2025-05-03 10:58:52,882 INFO:  * Restarting with stat
+2025-05-03 10:58:53,469 WARNING:  * Debugger is active!
+2025-05-03 10:58:53,473 INFO:  * Debugger PIN: 561-525-163
+2025-05-03 10:58:53,522 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-03 10:58:53,523 INFO:  * Running on http://192.168.95.150:5000/ (Press CTRL+C to quit)
+2025-05-03 10:59:13,961 INFO: 127.0.0.1 - - [03/May/2025 10:59:13] "GET / HTTP/1.1" 200 -
+2025-05-03 10:59:15,084 INFO: Camera opened successfully on index 0
+2025-05-03 10:59:15,353 INFO: 127.0.0.1 - - [03/May/2025 10:59:15] "GET /video_feed HTTP/1.1" 200 -
+2025-05-03 10:59:15,386 INFO: 127.0.0.1 - - [03/May/2025 10:59:15] "GET /welcome HTTP/1.1" 200 -
+2025-05-03 10:59:15,394 INFO: 127.0.0.1 - - [03/May/2025 10:59:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-03 11:00:27,935 INFO:  * Restarting with stat
+2025-05-03 11:00:28,520 WARNING:  * Debugger is active!
+2025-05-03 11:00:28,525 INFO:  * Debugger PIN: 561-525-163
+2025-05-03 11:00:28,569 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-03 11:00:28,569 INFO:  * Running on http://192.168.95.150:5000/ (Press CTRL+C to quit)
+2025-05-03 11:00:37,333 INFO: 127.0.0.1 - - [03/May/2025 11:00:37] "GET / HTTP/1.1" 200 -
+2025-05-03 11:00:38,563 INFO: Camera opened successfully on index 0
+2025-05-03 11:00:38,836 INFO: 127.0.0.1 - - [03/May/2025 11:00:38] "GET /video_feed HTTP/1.1" 200 -
+2025-05-03 11:00:38,864 INFO: 127.0.0.1 - - [03/May/2025 11:00:38] "GET /welcome HTTP/1.1" 200 -
+2025-05-03 11:00:38,869 INFO: 127.0.0.1 - - [03/May/2025 11:00:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-03 11:01:23,680 INFO:  * Restarting with stat
+2025-05-03 11:01:24,257 WARNING:  * Debugger is active!
+2025-05-03 11:01:24,262 INFO:  * Debugger PIN: 561-525-163
+2025-05-03 11:01:24,307 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-03 11:01:24,308 INFO:  * Running on http://192.168.95.150:5000/ (Press CTRL+C to quit)
+2025-05-03 11:01:38,618 INFO: 127.0.0.1 - - [03/May/2025 11:01:38] "GET / HTTP/1.1" 200 -
+2025-05-03 11:01:39,601 INFO: Camera opened successfully on index 0
+2025-05-03 11:01:39,881 INFO: 127.0.0.1 - - [03/May/2025 11:01:39] "GET /video_feed HTTP/1.1" 200 -
+2025-05-03 11:01:39,912 INFO: 127.0.0.1 - - [03/May/2025 11:01:39] "GET /welcome HTTP/1.1" 200 -
+2025-05-03 11:01:48,270 INFO: 127.0.0.1 - - [03/May/2025 11:01:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-03 11:07:45,098 INFO:  * Restarting with stat
+2025-05-03 11:07:45,791 WARNING:  * Debugger is active!
+2025-05-03 11:07:45,803 INFO:  * Debugger PIN: 561-525-163
+2025-05-03 11:07:45,852 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-03 11:07:45,852 INFO:  * Running on http://192.168.95.150:5000/ (Press CTRL+C to quit)
+2025-05-03 11:08:08,503 INFO: 127.0.0.1 - - [03/May/2025 11:08:08] "GET / HTTP/1.1" 200 -
+2025-05-03 11:08:10,045 INFO: Camera opened successfully on index 0
+2025-05-03 11:08:10,324 INFO: 127.0.0.1 - - [03/May/2025 11:08:10] "GET /video_feed HTTP/1.1" 200 -
+2025-05-03 11:08:10,350 INFO: 127.0.0.1 - - [03/May/2025 11:08:10] "GET /welcome HTTP/1.1" 200 -
+2025-05-03 11:08:10,359 INFO: 127.0.0.1 - - [03/May/2025 11:08:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-03 11:11:55,237 INFO:  * Restarting with stat
+2025-05-03 11:11:56,797 WARNING:  * Debugger is active!
+2025-05-03 11:11:56,814 INFO:  * Debugger PIN: 561-525-163
+2025-05-03 11:11:56,935 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-03 11:11:56,937 INFO:  * Running on http://192.168.95.150:5000/ (Press CTRL+C to quit)
+2025-05-03 11:12:10,331 INFO: 127.0.0.1 - - [03/May/2025 11:12:10] "GET / HTTP/1.1" 200 -
+2025-05-03 11:12:12,244 INFO: Camera opened successfully on index 0
+2025-05-03 11:12:12,452 INFO: 127.0.0.1 - - [03/May/2025 11:12:12] "GET /video_feed HTTP/1.1" 200 -
+2025-05-03 11:12:12,489 INFO: 127.0.0.1 - - [03/May/2025 11:12:12] "GET /welcome HTTP/1.1" 200 -
+2025-05-03 11:12:12,502 INFO: 127.0.0.1 - - [03/May/2025 11:12:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-03 11:12:59,604 INFO:  * Restarting with stat
+2025-05-03 11:13:00,202 WARNING:  * Debugger is active!
+2025-05-03 11:13:00,206 INFO:  * Debugger PIN: 561-525-163
+2025-05-03 11:13:00,250 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-03 11:13:00,250 INFO:  * Running on http://192.168.95.150:5000/ (Press CTRL+C to quit)
+2025-05-03 11:13:16,483 INFO: 127.0.0.1 - - [03/May/2025 11:13:16] "GET / HTTP/1.1" 200 -
+2025-05-03 11:13:17,791 INFO: Camera opened successfully on index 0
+2025-05-03 11:13:18,080 INFO: 127.0.0.1 - - [03/May/2025 11:13:18] "GET /video_feed HTTP/1.1" 200 -
+2025-05-03 11:13:18,117 INFO: 127.0.0.1 - - [03/May/2025 11:13:18] "GET /welcome HTTP/1.1" 200 -
+2025-05-03 11:13:20,470 INFO: 127.0.0.1 - - [03/May/2025 11:13:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-04 15:48:08,065 DEBUG: Starting new HTTPS connection (1): api.github.com:443
+2025-05-04 15:48:08,555 DEBUG: https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v0.0.0 HTTP/1.1" 200 None
+2025-05-04 15:48:08,605 ERROR: Failed to load YOLOv8 model: [Errno 2] No such file or directory: 'runs\\detect\\train\\weights\\best.pt'
+2025-05-04 15:48:08,619 INFO:  * Restarting with stat
+2025-05-04 15:48:12,228 DEBUG: Starting new HTTPS connection (1): api.github.com:443
+2025-05-04 15:48:12,418 DEBUG: https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v0.0.0 HTTP/1.1" 200 21212
+2025-05-04 15:48:12,468 ERROR: Failed to load YOLOv8 model: [Errno 2] No such file or directory: 'runs\\detect\\train\\weights\\best.pt'
+2025-05-04 15:48:12,475 WARNING:  * Debugger is active!
+2025-05-04 15:48:12,478 INFO:  * Debugger PIN: 561-525-163
+2025-05-04 15:48:12,623 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-04 15:48:12,623 INFO:  * Running on http://192.168.1.101:5000/ (Press CTRL+C to quit)
+2025-05-04 15:48:15,815 INFO: 127.0.0.1 - - [04/May/2025 15:48:15] "GET / HTTP/1.1" 200 -
+2025-05-04 15:48:16,882 INFO: Camera opened successfully on index 0
+2025-05-04 15:48:17,137 INFO: 127.0.0.1 - - [04/May/2025 15:48:17] "GET /video_feed HTTP/1.1" 200 -
+2025-05-04 15:48:17,181 INFO: 127.0.0.1 - - [04/May/2025 15:48:17] "GET /welcome HTTP/1.1" 200 -
+2025-05-04 15:48:25,321 INFO: 127.0.0.1 - - [04/May/2025 15:48:25] "GET / HTTP/1.1" 200 -
+2025-05-04 15:48:25,887 INFO: Camera opened successfully on index 0
+2025-05-04 15:48:26,300 INFO: 127.0.0.1 - - [04/May/2025 15:48:26] "GET /video_feed HTTP/1.1" 200 -
+2025-05-04 15:48:26,302 INFO: 127.0.0.1 - - [04/May/2025 15:48:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-04 15:48:26,302 WARNING: Failed to read frame
+2025-05-04 15:48:26,308 INFO: Camera released
+2025-05-04 15:48:26,312 INFO: 127.0.0.1 - - [04/May/2025 15:48:26] "GET /welcome HTTP/1.1" 200 -
+2025-05-04 15:48:26,317 INFO: 127.0.0.1 - - [04/May/2025 15:48:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-04 15:48:34,253 INFO: 127.0.0.1 - - [04/May/2025 15:48:34] "GET / HTTP/1.1" 200 -
+2025-05-04 15:48:35,137 INFO: Camera opened successfully on index 0
+2025-05-04 15:48:35,397 INFO: 127.0.0.1 - - [04/May/2025 15:48:35] "GET /video_feed HTTP/1.1" 200 -
+2025-05-04 15:48:35,447 INFO: 127.0.0.1 - - [04/May/2025 15:48:35] "GET /welcome HTTP/1.1" 200 -
+2025-05-04 15:58:22,388 ERROR: Failed to load YOLOv8 model: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL ultralytics.nn.tasks.DetectionModel was not an allowed global by default. Please use `torch.serialization.add_safe_globals([DetectionModel])` or the `torch.serialization.safe_globals([DetectionModel])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+2025-05-04 15:58:22,397 INFO:  * Restarting with stat
+2025-05-04 15:58:26,208 ERROR: Failed to load YOLOv8 model: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL ultralytics.nn.tasks.DetectionModel was not an allowed global by default. Please use `torch.serialization.add_safe_globals([DetectionModel])` or the `torch.serialization.safe_globals([DetectionModel])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+2025-05-04 15:58:26,216 WARNING:  * Debugger is active!
+2025-05-04 15:58:26,220 INFO:  * Debugger PIN: 561-525-163
+2025-05-04 15:58:26,377 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-04 15:58:26,378 INFO:  * Running on http://192.168.1.101:5000/ (Press CTRL+C to quit)
+2025-05-04 15:58:29,874 INFO: 127.0.0.1 - - [04/May/2025 15:58:29] "GET / HTTP/1.1" 200 -
+2025-05-04 15:58:30,818 INFO: Camera opened successfully on index 0
+2025-05-04 15:58:31,077 INFO: 127.0.0.1 - - [04/May/2025 15:58:31] "GET /video_feed HTTP/1.1" 200 -
+2025-05-04 15:58:31,128 INFO: 127.0.0.1 - - [04/May/2025 15:58:31] "GET /welcome HTTP/1.1" 200 -
+2025-05-04 15:58:32,873 INFO: 127.0.0.1 - - [04/May/2025 15:58:32] "[35m[1mGET /detect_objects HTTP/1.1[0m" 500 -
+2025-05-04 15:58:40,574 INFO: 127.0.0.1 - - [04/May/2025 15:58:40] "[35m[1mGET /detect_objects HTTP/1.1[0m" 500 -
+2025-05-04 15:58:41,754 INFO: 127.0.0.1 - - [04/May/2025 15:58:41] "[35m[1mGET /detect_objects HTTP/1.1[0m" 500 -
+2025-05-04 15:58:42,749 INFO: 127.0.0.1 - - [04/May/2025 15:58:42] "[35m[1mGET /detect_objects HTTP/1.1[0m" 500 -
+2025-05-04 15:59:09,147 INFO: 127.0.0.1 - - [04/May/2025 15:59:09] "[35m[1mGET /detect_objects HTTP/1.1[0m" 500 -
+2025-05-04 15:59:13,298 INFO: 127.0.0.1 - - [04/May/2025 15:59:13] "[35m[1mGET /detect_objects HTTP/1.1[0m" 500 -
+2025-05-04 15:59:16,581 INFO: 127.0.0.1 - - [04/May/2025 15:59:16] "[35m[1mGET /detect_objects HTTP/1.1[0m" 500 -
+2025-05-04 16:00:53,753 DEBUG: Starting new HTTPS connection (1): api.github.com:443
+2025-05-04 16:00:54,197 DEBUG: https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v0.0.0 HTTP/1.1" 200 None
+2025-05-04 16:00:54,243 ERROR: Failed to load YOLOv8 model: [Errno 2] No such file or directory: 'runs\\detect\\train\\weights\\best.pt'
+2025-05-04 16:00:54,254 INFO:  * Restarting with stat
+2025-05-04 16:00:57,911 DEBUG: Starting new HTTPS connection (1): api.github.com:443
+2025-05-04 16:00:58,101 DEBUG: https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v0.0.0 HTTP/1.1" 200 21191
+2025-05-04 16:00:58,107 ERROR: Failed to load YOLOv8 model: [Errno 2] No such file or directory: 'runs\\detect\\train\\weights\\best.pt'
+2025-05-04 16:00:58,113 WARNING:  * Debugger is active!
+2025-05-04 16:00:58,117 INFO:  * Debugger PIN: 561-525-163
+2025-05-04 16:00:58,275 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-04 16:00:58,275 INFO:  * Running on http://192.168.1.101:5000/ (Press CTRL+C to quit)
+2025-05-04 16:00:59,475 INFO: 127.0.0.1 - - [04/May/2025 16:00:59] "GET / HTTP/1.1" 200 -
+2025-05-04 16:01:00,380 INFO: Camera opened successfully on index 0
+2025-05-04 16:01:00,658 INFO: 127.0.0.1 - - [04/May/2025 16:01:00] "GET /video_feed HTTP/1.1" 200 -
+2025-05-04 16:01:00,693 INFO: 127.0.0.1 - - [04/May/2025 16:01:00] "GET /welcome HTTP/1.1" 200 -
+2025-05-04 16:01:00,840 INFO: 127.0.0.1 - - [04/May/2025 16:01:00] "[35m[1mGET /detect_objects HTTP/1.1[0m" 500 -
+2025-05-04 16:01:03,185 INFO: 127.0.0.1 - - [04/May/2025 16:01:03] "[35m[1mGET /detect_objects HTTP/1.1[0m" 500 -
+2025-05-04 16:01:04,495 INFO: 127.0.0.1 - - [04/May/2025 16:01:04] "GET / HTTP/1.1" 200 -
+2025-05-04 16:01:04,509 INFO: Camera opened successfully on index 0
+2025-05-04 16:01:04,531 INFO: 127.0.0.1 - - [04/May/2025 16:01:04] "GET /video_feed HTTP/1.1" 200 -
+2025-05-04 16:01:04,956 WARNING: Failed to read frame
+2025-05-04 16:01:04,957 INFO: 127.0.0.1 - - [04/May/2025 16:01:04] "GET /welcome HTTP/1.1" 200 -
+2025-05-04 16:01:04,961 INFO: Camera released
+2025-05-04 16:01:05,296 INFO: 127.0.0.1 - - [04/May/2025 16:01:05] "[35m[1mGET /detect_objects HTTP/1.1[0m" 500 -
+2025-05-04 16:01:10,516 INFO: 127.0.0.1 - - [04/May/2025 16:01:10] "GET / HTTP/1.1" 200 -
+2025-05-04 16:01:11,392 INFO: Camera opened successfully on index 0
+2025-05-04 16:01:11,660 INFO: 127.0.0.1 - - [04/May/2025 16:01:11] "GET /video_feed HTTP/1.1" 200 -
+2025-05-04 16:01:11,708 INFO: 127.0.0.1 - - [04/May/2025 16:01:11] "GET /welcome HTTP/1.1" 200 -
+2025-05-04 16:01:14,106 INFO: 127.0.0.1 - - [04/May/2025 16:01:14] "[35m[1mGET /detect_objects HTTP/1.1[0m" 500 -
+2025-05-04 16:01:58,882 INFO:  * Detected change in 'C:\\Project2025\\visual\\app.py', reloading
+2025-05-04 16:01:59,474 INFO:  * Restarting with stat
+2025-05-04 16:02:03,692 DEBUG: Starting new HTTPS connection (1): api.github.com:443
+2025-05-04 16:02:04,229 DEBUG: https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v0.0.0 HTTP/1.1" 200 None
+2025-05-04 16:02:04,281 ERROR: Failed to load YOLOv8 model: [Errno 2] No such file or directory: 'runs\\detect\\train\\weights\\best.pt'
+2025-05-04 16:02:04,287 WARNING:  * Debugger is active!
+2025-05-04 16:02:04,290 INFO:  * Debugger PIN: 561-525-163
+2025-05-04 16:02:04,414 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-04 16:02:04,414 INFO:  * Running on http://192.168.1.101:5000/ (Press CTRL+C to quit)
+2025-05-04 16:02:04,606 INFO: 127.0.0.1 - - [04/May/2025 16:02:04] "GET / HTTP/1.1" 200 -
+2025-05-04 16:02:05,426 INFO: Camera opened successfully on index 0
+2025-05-04 16:02:05,692 INFO: 127.0.0.1 - - [04/May/2025 16:02:05] "GET /video_feed HTTP/1.1" 200 -
+2025-05-04 16:02:05,744 INFO: 127.0.0.1 - - [04/May/2025 16:02:05] "GET /welcome HTTP/1.1" 200 -
+2025-05-07 10:12:57,754 DEBUG: Starting new HTTPS connection (1): api.github.com:443
+2025-05-07 10:12:58,500 DEBUG: https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v0.0.0 HTTP/1.1" 200 None
+2025-05-07 10:12:58,539 ERROR: Failed to load YOLOv8 model: [Errno 2] No such file or directory: 'runs\\detect\\train\\weights\\best.pt'
+2025-05-07 10:12:58,584 INFO:  * Restarting with stat
+2025-05-07 10:13:08,493 DEBUG: Starting new HTTPS connection (1): api.github.com:443
+2025-05-07 10:13:08,882 DEBUG: https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v0.0.0 HTTP/1.1" 200 21223
+2025-05-07 10:13:08,981 ERROR: Failed to load YOLOv8 model: [Errno 2] No such file or directory: 'runs\\detect\\train\\weights\\best.pt'
+2025-05-07 10:13:08,994 WARNING:  * Debugger is active!
+2025-05-07 10:13:08,999 INFO:  * Debugger PIN: 561-525-163
+2025-05-07 10:13:09,286 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-07 10:13:09,287 INFO:  * Running on http://192.168.55.150:5000/ (Press CTRL+C to quit)
+2025-05-07 10:13:32,124 INFO: 127.0.0.1 - - [07/May/2025 10:13:32] "GET / HTTP/1.1" 200 -
+2025-05-07 10:13:34,126 INFO: Camera opened successfully on index 0
+2025-05-07 10:13:34,330 INFO: 127.0.0.1 - - [07/May/2025 10:13:34] "GET /video_feed HTTP/1.1" 200 -
+2025-05-07 10:13:34,924 INFO: 127.0.0.1 - - [07/May/2025 10:13:34] "GET /welcome HTTP/1.1" 200 -
+2025-05-07 10:13:34,935 INFO: 127.0.0.1 - - [07/May/2025 10:13:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-07 10:16:06,278 DEBUG: Starting new HTTPS connection (1): api.github.com:443
+2025-05-07 10:16:07,052 DEBUG: https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v0.0.0 HTTP/1.1" 200 None
+2025-05-07 10:16:07,158 ERROR: Failed to load YOLOv8 model: [Errno 2] No such file or directory: 'runs\\detect\\train\\weights\\best.pt'
+2025-05-07 10:16:07,204 INFO:  * Restarting with stat
+2025-05-07 10:16:17,041 DEBUG: Starting new HTTPS connection (1): api.github.com:443
+2025-05-07 10:16:17,295 DEBUG: https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v0.0.0 HTTP/1.1" 200 21206
+2025-05-07 10:16:17,382 ERROR: Failed to load YOLOv8 model: [Errno 2] No such file or directory: 'runs\\detect\\train\\weights\\best.pt'
+2025-05-07 10:16:17,405 WARNING:  * Debugger is active!
+2025-05-07 10:16:17,421 INFO:  * Debugger PIN: 561-525-163
+2025-05-07 10:16:18,115 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-07 10:16:18,116 INFO:  * Running on http://192.168.55.150:5000/ (Press CTRL+C to quit)
+2025-05-07 10:16:21,853 INFO: 127.0.0.1 - - [07/May/2025 10:16:21] "GET / HTTP/1.1" 200 -
+2025-05-07 10:16:23,393 INFO: Camera opened successfully on index 0
+2025-05-07 10:16:23,667 INFO: 127.0.0.1 - - [07/May/2025 10:16:23] "GET /video_feed HTTP/1.1" 200 -
+2025-05-07 10:16:23,716 INFO: 127.0.0.1 - - [07/May/2025 10:16:23] "GET /welcome HTTP/1.1" 200 -
+2025-05-07 10:16:23,760 INFO: 127.0.0.1 - - [07/May/2025 10:16:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-07 10:17:01,465 DEBUG: Starting new HTTPS connection (1): api.github.com:443
+2025-05-07 10:17:02,291 DEBUG: https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v0.0.0 HTTP/1.1" 200 None
+2025-05-07 10:17:02,384 ERROR: Failed to load YOLOv8 model: [Errno 2] No such file or directory: 'runs\\detect\\train\\weights\\best.pt'
+2025-05-07 10:17:02,406 INFO:  * Restarting with stat
+2025-05-07 10:17:09,062 DEBUG: Starting new HTTPS connection (1): api.github.com:443
+2025-05-07 10:17:09,352 DEBUG: https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v0.0.0 HTTP/1.1" 200 21205
+2025-05-07 10:17:09,435 ERROR: Failed to load YOLOv8 model: [Errno 2] No such file or directory: 'runs\\detect\\train\\weights\\best.pt'
+2025-05-07 10:17:09,454 WARNING:  * Debugger is active!
+2025-05-07 10:17:09,464 INFO:  * Debugger PIN: 561-525-163
+2025-05-07 10:17:09,804 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-07 10:17:09,805 INFO:  * Running on http://192.168.55.150:5000/ (Press CTRL+C to quit)
+2025-05-07 10:17:23,577 INFO: 127.0.0.1 - - [07/May/2025 10:17:23] "GET / HTTP/1.1" 200 -
+2025-05-07 10:17:24,959 INFO: Camera opened successfully on index 0
+2025-05-07 10:17:25,216 INFO: 127.0.0.1 - - [07/May/2025 10:17:25] "GET /video_feed HTTP/1.1" 200 -
+2025-05-07 10:17:25,259 INFO: 127.0.0.1 - - [07/May/2025 10:17:25] "GET /welcome HTTP/1.1" 200 -
+2025-05-07 10:17:25,264 INFO: 127.0.0.1 - - [07/May/2025 10:17:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-07 10:24:39,546 DEBUG: Starting new HTTPS connection (1): api.github.com:443
+2025-05-07 10:24:40,270 DEBUG: https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v0.0.0 HTTP/1.1" 200 None
+2025-05-07 10:24:40,355 ERROR: Failed to load YOLOv8 model: [Errno 2] No such file or directory: 'runs\\detect\\train\\weights\\best.pt'
+2025-05-07 10:24:40,398 INFO:  * Restarting with stat
+2025-05-07 10:24:47,278 DEBUG: Starting new HTTPS connection (1): api.github.com:443
+2025-05-07 10:24:47,553 DEBUG: https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v0.0.0 HTTP/1.1" 200 21230
+2025-05-07 10:24:47,625 ERROR: Failed to load YOLOv8 model: [Errno 2] No such file or directory: 'runs\\detect\\train\\weights\\best.pt'
+2025-05-07 10:24:47,638 WARNING:  * Debugger is active!
+2025-05-07 10:24:47,645 INFO:  * Debugger PIN: 561-525-163
+2025-05-07 10:24:48,091 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-07 10:24:48,091 INFO:  * Running on http://192.168.55.150:5000/ (Press CTRL+C to quit)
+2025-05-07 10:24:52,441 INFO: 127.0.0.1 - - [07/May/2025 10:24:52] "GET / HTTP/1.1" 200 -
+2025-05-07 10:24:53,950 INFO: Camera opened successfully on index 0
+2025-05-07 10:24:54,284 INFO: 127.0.0.1 - - [07/May/2025 10:24:54] "GET /video_feed HTTP/1.1" 200 -
+2025-05-07 10:24:54,316 INFO: 127.0.0.1 - - [07/May/2025 10:24:54] "GET /welcome HTTP/1.1" 200 -
+2025-05-07 10:24:54,324 INFO: 127.0.0.1 - - [07/May/2025 10:24:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-07 11:01:48,526 DEBUG: Starting new HTTPS connection (1): api.github.com:443
+2025-05-07 11:01:49,461 DEBUG: https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v0.0.0 HTTP/1.1" 200 None
+2025-05-07 11:01:49,555 ERROR: Failed to load YOLOv8 model: [Errno 2] No such file or directory: 'runs\\detect\\train\\weights\\best.pt'
+2025-05-07 11:01:49,586 INFO:  * Restarting with stat
+2025-05-07 11:01:56,894 DEBUG: Starting new HTTPS connection (1): api.github.com:443
+2025-05-07 11:01:57,273 DEBUG: https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v0.0.0 HTTP/1.1" 200 21035
+2025-05-07 11:01:57,439 ERROR: Failed to load YOLOv8 model: [Errno 2] No such file or directory: 'runs\\detect\\train\\weights\\best.pt'
+2025-05-07 11:01:57,453 WARNING:  * Debugger is active!
+2025-05-07 11:01:57,461 INFO:  * Debugger PIN: 561-525-163
+2025-05-07 11:01:57,775 WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-07 11:01:57,776 INFO:  * Running on http://192.168.55.150:5000/ (Press CTRL+C to quit)
+2025-05-07 11:02:01,157 INFO: 127.0.0.1 - - [07/May/2025 11:02:01] "GET / HTTP/1.1" 200 -
+2025-05-07 11:02:02,570 INFO: Camera opened successfully on index 0
+2025-05-07 11:02:02,849 INFO: 127.0.0.1 - - [07/May/2025 11:02:02] "GET /video_feed HTTP/1.1" 200 -
+2025-05-07 11:02:02,909 INFO: 127.0.0.1 - - [07/May/2025 11:02:02] "GET /welcome HTTP/1.1" 200 -
+2025-05-07 11:02:02,918 INFO: 127.0.0.1 - - [07/May/2025 11:02:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
